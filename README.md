@@ -18,6 +18,8 @@
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
+:small_blue_diamond: [Como-executar](#como-executar)
+
 :small_blue_diamond: [Desenvolvedora](#Desenvolvedora)
 
 ## Descrição do projeto 
@@ -44,6 +46,20 @@ Todas as dependencias estão listadas no arquivo requirement.txt e podem ser bai
 :warning: [FastAPI](https://fastapi.tiangolo.com/)
 
 :warning: [Uvicorn](https://www.uvicorn.org/)
+
+## Como-executar:
+
+Para rodar o exemplo, siga os passos:
+
+1 - Baixe o projeto localmente (git clone)
+
+2 - Crie o virtual env dentro da pasta do projeto (virtualenv venv)
+
+3 - Ative o venv (Windows: venv\Scripts\activate)
+
+4 - Execute o uvicorn (uvicorn working:app --reload)
+
+5 - Acesse a url do swagger: http://127.0.0.1:8000/docs
 
 ## Desenvolvedora :
 
