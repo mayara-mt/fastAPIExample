@@ -55,11 +55,13 @@ Para rodar o exemplo, siga os passos:
 
 2 - Crie o virtual env dentro da pasta do projeto (virtualenv venv)
 
-3 - Ative o venv (Windows: venv\Scripts\activate)
+3 - Instale as dependencias (pip install -r requirements.txt)
 
-4 - Execute o uvicorn (uvicorn working:app --reload)
+4 - Ative o venv (Windows: venv\Scripts\activate)
 
-5 - Acesse a url do swagger: http://127.0.0.1:8000/docs
+5 - Execute o uvicorn (uvicorn working:app --reload)
+
+6 - Acesse a url do swagger: http://127.0.0.1:8000/docs
 
 ## Desenvolvedora :
 
