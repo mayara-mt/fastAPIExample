@@ -55,9 +55,9 @@ Para rodar o exemplo, siga os passos:
 
 2 - Crie o virtual env dentro da pasta do projeto (virtualenv venv)
 
-3 - Instale as dependencias (pip install -r requirements.txt)
-
-4 - Ative o venv (Windows: venv\Scripts\activate)
+3 - Ative o venv (Windows: venv\Scripts\activate)
+ 
+4 - Instale as dependencias (pip install -r requirements.txt)
 
 5 - Execute o uvicorn (uvicorn working:app --reload)
 
